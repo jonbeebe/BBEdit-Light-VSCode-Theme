@@ -1,0 +1,27 @@
+{
+    "name": "theme-bbeditlight",
+    "displayName": "BBEdit Light Theme",
+    "description": "Port of BBEdit 11 default color scheme.",
+    "icon": "icon.png",
+    "version": "1.0.0",
+    "publisher": "jonbeebe",
+    "engines": {
+        "vscode": "^1.10.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "repository": {
+		"type": "git",
+		"url": "https://github.com/jonbeebe/BBEdit-Light-VSCode-Theme.git"
+	},
+    "contributes": {
+        "themes": [
+            {
+                "label": "BBEdit Light",
+                "uiTheme": "vs",
+                "path": "./themes/BBEdit-Light.tmTheme"
+            }
+        ]
+    }
+}
